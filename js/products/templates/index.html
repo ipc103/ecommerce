@@ -1,0 +1,11 @@
+<h2>All Products</h2>
+
+<div class="col-md-4">
+  <ul>
+    <li ng-repeat="product in index.products">
+      <a ui-sref="products.product({name: product.name.toLowerCase()})"><h3>{{ product.name }}</h3></a>
+    </li>
+  </ul>
+</div>
+
+<ui-view></ui-view>
