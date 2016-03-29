@@ -3,6 +3,11 @@
   <p>
     {{ show.product.description }}
   </p>
-  <button type="button" name="button" ng-hide="show.message" ng-click="show.addToCart(show.product)">Add To Cart</button>
+  <form ng-hide="show.message" ng-submit="show.addToCart(show.product, show.quantity)">
+    <label for="quantity">Quantity:</label>
+    <input type="text" id="quantity" ng-model="show.quantity">
+    <input type="submit" value="Add To Cart" name="button">
+  </form>
+
   {{ show.message }}
 </div>

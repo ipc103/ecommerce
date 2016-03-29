@@ -1,5 +1,9 @@
-function ProductsController($stateParams, Product) {
+function ProductsController($stateParams, $filter, Product) {
   this.products = Product.all()
+
+  function filterBy(property) {
+
+  }
 };
 
 

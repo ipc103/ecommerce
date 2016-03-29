@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Ian Candy"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ipc103/ecommerce",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "ui-router#^0.2.18",
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6"
+  }
+}
